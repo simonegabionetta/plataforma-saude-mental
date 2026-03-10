@@ -1,16 +1,14 @@
-import { Button } from '@/components/ui/button'
+import { Route, Switch } from "wouter";
+import Home from "@/pages/Home";
+import Sobre from "@/pages/Sobre";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="flex flex-col items-center gap-4">
-        <h1 className="text-2xl font-bold">shadcn/ui funcionando! 🎉</h1>
-        <Button>Botão Padrão</Button>
-        <Button variant="outline">Botão Outline</Button>
-        <Button variant="destructive">Botão Vermelho</Button>
-      </div>
-    </div>
-  )
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/sobre" component={Sobre} />
+    </Switch>
+  );
 }
 
-export default App
+export default App;

@@ -7,3 +7,4 @@ Sprint 1 concluída com sucesso!
 ✅ Repositório criado no GitHub
 ✅ Primeiro commit e push realizados
 
+PrefixoQuando usarfeat:nova funcionalidadefix:correção de bugdocs:alteração em documentaçãostyle:formatação, sem mudança de códigorefactor:refatoração de códigochore:tarefas de configuração
